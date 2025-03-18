@@ -22,17 +22,13 @@
     }
    },
 
-   "custom/b2":{
-    "format":"󰓃",
-    "tooltip":false
- },
-
    "pulseaudio": {
     "scroll-step": 5,
-    "max-volume": 150,
-    "format": "{volume}%",
-    "format-bluetooth": "vol {volume}%",
-    "nospacing": 1,
+    "max-volume": 100,
+    "min-volune": 1,
+    "format": "{icon}{volume}%",
+    "format-icons":{"󰓃"},
+    "format-mute":" {volume}"
     "on-click": "pavucontrol",
     "tooltip": false
 }
