@@ -32,9 +32,16 @@
     padding: 0 10;
     
 }
+
+#custom-b1 {
+   font-size: 18;
+   margin-right: 3;
+}
+
 #custom-b2,
 #pulseaudio {
     background: transparent;
     color: white;
+    margin-right: 10;
 
 }
