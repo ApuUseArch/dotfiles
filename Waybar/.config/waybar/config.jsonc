@@ -1,0 +1,20 @@
+{
+    "layer": "top",
+    "position": "top",
+    //"height": 30,
+    // "width": 1280,
+    // "spacing": 4,
+    
+    // Modules are being imported from here
+   
+    "include":["/home/apu/.config/waybar/modules.jsonc"],
+
+    // Choose the order of the modules
+
+    "modules-left": ["custom/b1","clock"],
+
+    "modules-center": ["hyprland/workspaces"],
+
+    "modules-right":[]
+
+}

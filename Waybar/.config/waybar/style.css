@@ -1,0 +1,34 @@
+*{
+    font-family: JetBrain Nerd Mono;
+}
+
+#waybar {
+    background-color: transparent;
+}
+
+#custom-b1 {
+   font-size: 18;
+   margin-right: 3;
+}
+
+#custom-b1,
+#clock {
+    color: white;
+    margin-left: 10;
+}
+
+
+#workspaces button {
+    background: transparent;
+    color: white;
+}
+
+#workspaces button:hover {
+    box-shadow: none; /* Remove predefined box-shadow */
+    text-shadow: none; /* Remove predefined text-shadow */
+    background: none; /* Remove predefined background color (white) */
+    transition: none; /* Disable predefined animations */
+    border: none;
+    padding: 0 10;
+    
+}
