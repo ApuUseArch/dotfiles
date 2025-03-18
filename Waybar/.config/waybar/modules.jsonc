@@ -22,14 +22,20 @@
     }
    },
 
-  "custom/volume": {
-    "format": "{icon} {percent}%",
-    "format-icons": ["󰕿", "󰖀", "󰕾"],
-    "exec": "wpctl get-volume     @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100)}'",
-    "on-click": "pwvucontrol",
-    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
-    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
-  }
+   "custom/b2":{
+    "format":"󰓃",
+    "tooltip":false
+ },
+
+   "pulseaudio": {
+    "scroll-step": 5,
+    "max-volume": 150,
+    "format": "{volume}%",
+    "format-bluetooth": "vol {volume}%",
+    "nospacing": 1,
+    "on-click": "pavucontrol",
+    "tooltip": false
+}
+  
 }
 
-}

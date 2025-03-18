@@ -32,3 +32,9 @@
     padding: 0 10;
     
 }
+#custom-b2,
+#pulseaudio {
+    background: transparent;
+    color: white;
+
+}
