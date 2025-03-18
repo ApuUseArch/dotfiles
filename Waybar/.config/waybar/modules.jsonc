@@ -4,13 +4,13 @@
    "custom/b1":{
       "format":"󱑂",
       "tooltip":false
-   },
+},
 
    "clock": {
     "format": "{:%I:%M %p}",
     "format-alt":"{:%d-%m-%Y}",
     "tooltip": false
-   },
+},
 
    "hyprland/workspaces": {
     "persistent-workspaces": {
@@ -20,18 +20,10 @@
         "4":[],
         "5":[]
     }
-   },
-
-   "pulseaudio": {
-    "scroll-step": 5,
-    "max-volume": 100,
-    "min-volune": 1,
-    "format": "{icon}{volume}%",
-    "format-icons":{"󰓃"},
-    "format-mute":" {volume}"
-    "on-click": "pavucontrol",
-    "tooltip": false
+},
+ 
+  "custom/b2":{
+  "format":"Sound",
+  "on-click":"pavucontrol"
+  }
 }
-  
-}
-

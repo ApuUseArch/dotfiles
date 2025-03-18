@@ -15,6 +15,7 @@
 
     "modules-center": ["hyprland/workspaces"],
 
-    "modules-right":["custom/b2","pulseaudio"]
+    "modules-right":["custom/b2"]
 
 }
+

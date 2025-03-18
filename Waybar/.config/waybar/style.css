@@ -1,5 +1,7 @@
 *{
     font-family: JetBrain Nerd Mono;
+    font-weight: bold;
+
 }
 
 #waybar {
@@ -33,15 +35,8 @@
     
 }
 
-#custom-b1 {
-   font-size: 18;
-   margin-right: 3;
-}
-
-#custom-b2,
-#pulseaudio {
+#custom-b2{
     background: transparent;
     color: white;
-    margin-right: 10;
-
+    margin-right: 30 ;
 }
