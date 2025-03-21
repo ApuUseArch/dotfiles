@@ -15,7 +15,7 @@
 
     "modules-center": ["hyprland/workspaces"],
 
-    "modules-right":["custom/b2"]
+    "modules-right":[]
 
 }
 
