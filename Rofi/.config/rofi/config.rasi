@@ -1,0 +1,15 @@
+/*****----- Theme -----*****/
+
+@theme "~/.config/rofi/theme.rasi"
+
+/*****----- Configuration -----*****/
+configuration {
+	display-drun:               "Applications:";
+    display-window:             "Windows:";
+    drun-display-format:        "{icon} {name}";
+    modi:                       "drun,run,window";
+    show-icons:                 true;
+    icon-theme:                 "Papirus";
+
+}
+
