@@ -1,15 +1,16 @@
-/* ROFI SQUARED THEME USING THE EVERFOREST PALETTE  */
+/* MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI  */
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    font:   "JetBrainsMono Nerd Font Medium 10";
+    font:   "Montserrat 12";
 
-    bg0:     #2B3339;
-    bg1:     #323D43;
-    fg0:     #D3C6AA;
+    bg0:    #242424E6;
+    bg1:    #7E7E7E80;
+    bg2:    #0860f2E6;
 
-    accent-color:     #A7C080;
-    urgent-color:     #DBBC7F;
+    fg0:    #DEDEDE;
+    fg1:    #FFFFFF;
+    fg2:    #DEDEDE80;
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -20,75 +21,77 @@
 }
 
 window {
-    location:   center;
-    width:      480;
-
     background-color:   @bg0;
+
+    location:       center;
+    width:          640;
+    border-radius:  8;
 }
 
 inputbar {
-    spacing:    8px;
-    padding:    8px;
-
-    background-color:   @bg1;
+    font:       "Montserrat 20";
+    padding:    12px;
+    spacing:    12px;
+    children:   [ icon-search, entry ];
 }
 
-prompt, entry, element-icon, element-text {
+icon-search {
+    expand:     false;
+    filename:   "search";
+    size: 28px;
+}
+
+icon-search, entry, element-icon, element-text {
     vertical-align: 0.5;
 }
 
-prompt {
-    text-color: @accent-color;
+entry {
+    font:   inherit;
+
+    placeholder         : "Search";
+    placeholder-color   : @fg2;
 }
 
-textbox {
-    padding:            8px;
+message {
+    border:             2px 0 0;
+    border-color:       @bg1;
     background-color:   @bg1;
 }
 
+textbox {
+    padding:    8px 24px;
+}
+
 listview {
-    padding:    4px 0;
-    lines:      8;
+    lines:      10;
     columns:    1;
 
     fixed-height:   false;
+    border:         1px 0 0;
+    border-color:   @bg1;
 }
 
 element {
-    padding:    8px;
-    spacing:    8px;
-}
-
-element normal normal {
-    text-color: @fg0;
-}
-
-element normal urgent {
-    text-color: @urgent-color;
+    padding:            8px 16px;
+    spacing:            16px;
+    background-color:   transparent;
 }
 
 element normal active {
-    text-color: @accent-color;
+    text-color: @bg2;
 }
 
 element alternate active {
-    text-color: @accent-color;
-}
-
-element selected {
-    text-color: @bg0;
+    text-color: @bg2;
 }
 
 element selected normal, element selected active {
-    background-color:   @accent-color;
-}
-
-element selected urgent {
-    background-color:   @urgent-color;
+    background-color:   @bg2;
+    text-color:         @fg1;
 }
 
 element-icon {
-    size:   0.8em;
+    size:   1em;
 }
 
 element-text {

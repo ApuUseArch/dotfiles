@@ -4,8 +4,16 @@
     "height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
+    
+    //Module are from here
+    "include":["~/.config/waybar/modules.jsonc"],
+    
     // Choose the order of the modules
-    "modules-left": [],
+    "modules-left": ["hyprland/workspaces"],
+
+
     "modules-center": [],
-    "modules-right":["pulseaudio/slider"]
+
+
+    "modules-right": ["pulseaudio/slider"],
 }

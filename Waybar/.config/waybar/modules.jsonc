@@ -1,8 +1,17 @@
 {
+    "hyprland/workspaces": {
+    "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [] 
+    }
+},
+    
     "pulseaudio/slider": {
     "min": 0,
     "max": 100,
     "orientation": "horizontal"
-    "size":10px,
 }
 }
