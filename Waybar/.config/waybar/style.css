@@ -1,42 +1,20 @@
-*{
-    font-family: JetBrain Nerd Mono;
-    font-weight: bold;
-
-}
-
-#waybar {
-    background-color: transparent;
-}
-
-#custom-b1 {
-   font-size: 18;
-   margin-right: 3;
-}
-
-#custom-b1,
-#clock {
-    color: white;
-    margin-left: 10;
-}
-
-
-#workspaces button {
-    background: transparent;
-    color: white;
-}
-
-#workspaces button:hover {
-    box-shadow: none; /* Remove predefined box-shadow */
-    text-shadow: none; /* Remove predefined text-shadow */
-    background: none; /* Remove predefined background color (white) */
-    transition: none; /* Disable predefined animations */
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
     border: none;
-    padding: 0 10;
-    
+    box-shadow: none;
+    margin-right: 10;
 }
-
-#custom-b2{
-    background: transparent;
-    color: white;
-    margin-right: 30 ;
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 80px;
+    border-radius: 5px;
+    background-color: black;
+}
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: rgb(32, 222, 232);
 }
