@@ -8,6 +8,12 @@
         "5": [] 
     }
 },
+   
+    "clock": {
+    "interval": 60,
+    "format": "{:%I:%M %p}",
+    "max-length": 25
+},
     
     "pulseaudio/slider": {
     "min": 0,
